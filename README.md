@@ -27,7 +27,7 @@ public void ConfigureServices(IServiceCollection services)
 ```
 public void Configure(IApplicationBuilder app)
 {
-    app.Map("/zeizhi", app => { app.UseProxy(new Uri("https://zeizhi.com"); });
+   app.Map("", app => { app.UseProxy(new Uri("https://zeizhi.com")); });
 }
 
 ```
