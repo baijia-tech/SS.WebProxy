@@ -1,2 +1,2 @@
 # SS.WebProxy
-HTTP(S) Proxy supported .NET Core versions
+A HTTP(s) proxy middleware supported asp.net core 3.1+
